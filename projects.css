@@ -1,0 +1,89 @@
+/*Projects CSS*/
+#projects{
+    padding: 125px 20px;
+    background-color: #ebe8e8;
+    text-align: center;
+}
+
+#projects-title{
+    margin: 0;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#projects-line{
+    border: 3px solid black;
+    width: 100px;
+}
+
+
+#projects-text{
+    font-family: 'Raleway';
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.projectFilter{
+    font-size: 28px;
+    font-family: 'Raleway';
+    font-weight: 200;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.projectFilter:hover{
+    background-color: #03d7df;
+}
+
+.filterSelected{
+    background-color: #03d7df;
+}
+
+#projects-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.image-containers{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.image-containers:hover img{
+    opacity: 0.3;
+}
+
+#projects-container img{
+    width: 400px;
+    height: 250px;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.imageText{
+    position: relative;
+    top: -150px;
+    font-family: 'Quicksand';
+    font-size: 24px;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.image-containers:hover .imageText{
+    opacity: 1;
+}
+
+.hideProject{
+    display: none;
+}

@@ -1,0 +1,47 @@
+/*About CSS*/
+
+#about{
+    padding: 125px 20px;
+    text-align: center;
+}
+
+#about-title{
+    margin: 0;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#about-line{
+    border: 3px solid black;
+    width: 100px;
+}
+
+#portfolio-stand{
+    width: 220px;
+    height: 300px;
+    margin-right: 60px;
+    border-radius: 10px;
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+#about-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#about-text-title{
+    font-size: 36px;
+    font-family:'Raleway-bold';
+    font-weight: bolder;
+    color: darkcyan;
+}
+
+#about-text{
+    font-family: 'Raleway';
+    font-size: 22px;
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 150px;
+}

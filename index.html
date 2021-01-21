@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="devices.css">
+    <link rel="shortcut icon" href="favicon.jpg">
+    <title>ZumTheZazaKing</title>
+</head>
+<body>
+
+    <div id="header">
+
+        <div id="header-content">
+            <p>
+                Hello! I am <span style="color:skyblue">ZumTheZazaKing</span>.<br>
+                My real name is <span style="color: skyblue;">Muhammad Zahidi</span><br>
+                and I am still <span style="color: burlywood;">learning</span>
+            </p>
+            <a id="jumpIn" href="#about">Jump In</a>
+        </div>
+    </div>
+
+<!--Navigation Bar abadoned because I couldn't make it sticky
+
+    <div id="navigation">
+
+        <a href="#header">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+
+    </div>
+
+-->
+
+
+    <div id="about">
+
+        <p id="about-title">About</p>
+
+        <hr id="about-line">
+
+        <div id="about-content">
+
+            <img src="about images/portfolio stand.jpg" id="portfolio-stand" alt="image">
+
+            <p id="about-text">
+                <span id="about-text-title">Who is this guy?</span><br>
+                I am a student at Sungai Petani Vocational College 1 and I currently<br>
+                reside at Penang, Malaysia. I have a quite the passion for web development<br>
+                and programming and I am quite competent when it comes down to completing<br>
+                my objectives. I have some knowledge on and experience with <span style="color:darkcyan">Python</span>, <br>
+                <span style="color: orange;">JavaScript</span> and <span style="color: red;">Java</span>. However, despite my acomplishments, I am still learning.<br>
+                I strive to become an excellent Developer and one day, <br>
+                I'll hopefully work at <span style="color: green;">Google</span>.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <div id="projects">
+
+        <p id="projects-title">Projects</p>
+
+        <hr id="projects-line">
+
+        <div id="projects-content">
+
+            <p id="projects-text">
+                
+                Here are a few of the projects that I have made during my time learning.<br>
+                All of them were made with <span style="color: rgb(216, 142, 5);">JavaScript</span> and overall, I have done over 50<br>
+                <span style="color: rgb(216, 142, 5);">JavaScript</span> projects.
+
+            </p>
+
+            <br>
+
+            <button id="allFilter" class="projectFilter filterSelected" onclick="filterAll()">All</button>
+            <button id="gamesFilter" class="projectFilter" onclick="filterGames()">Games</button>
+            <button id="appsFilter" class="projectFilter" onclick="filterApps()">Apps</button>
+
+            <div id="projects-container">
+
+                <div class="image-containers apps">
+                    <a href="https://zumthezazaking.github.io/JS-Calculator/" target="_blank">
+                        <img src="projects Images/calculator.png" alt="calculator">
+                    </a>
+                    <p class="imageText">Calculator</p>
+                </div>
+
+                <div class="image-containers games">
+                    <a href="https://zumthezazaking.github.io/JS-Number-Guessing-Game/" target="_blank">
+                        <img src="projects Images/number guessing game.png" alt="ngg">
+                    </a>
+                    <p class="imageText">Number Guessing Game</p>
+                </div>
+
+                <div class="image-containers games">
+                    <a href="https://zumthezazaking.github.io/gamov.github.io/" target="_blank">
+                        <img src="projects Images/gamov.png" alt="">
+                    </a>
+                    <p class="imageText">Gamov<br>(Text-based Adventure Game)</p>
+                </div>
+
+                <div class="image-containers apps">
+                    <a href="https://zumthezazaking.github.io/JS-Pass-The-Message/" target="_blank">
+                        <img src="projects Images/pass the message.png" alt="">
+                    </a>
+                    <p class="imageText">Pass The Message</p>
+                </div>
+                
+                <div class="image-containers apps">
+                    <a href="https://zumthezazaking.github.io/JS-Meditation-App/" target="_blank">
+                        <img src="projects Images/meditation app.png" alt="">
+                    </a>
+                    <p class="imageText">Meditation App</p>
+                </div>
+                
+                <div class="image-containers games">
+                    <a href="https://zumthezazaking.github.io/JS-Hangman/" target="_blank">
+                        <img src="projects Images/hangman.png" alt="">
+                    </a>
+                    <p class="imageText">Hangman</p>
+                </div>
+
+                <div class="image-containers apps">
+                    <a href="https://zumthezazaking.github.io/JS-Fibonacci-Sequence/" target="_blank">
+                        <img src="projects Images/fibonacci sequence.png" alt="">
+                    </a>
+                    <p class="imageText">Fibonacci Sequence</p>
+                </div>
+
+                <div class="image-containers games">
+                    <a href="https://zumthezazaking.github.io/Dont-Press-The-Red-Button/" target="_blank">
+                        <img src="projects Images/dont press the red button.png" alt="">
+                    </a>
+                    <p class="imageText">Don't Press The Red Button</p>
+                </div>
+                
+                <div class="image-containers apps">
+                    <a href="https://zumthezazaking.github.io/JS-Virtual-Keyboard/" target="_blank">
+                        <img src="projects Images/virtual keyboard.png" alt="">
+                    </a>
+                    <p class="imageText">Virtual Keyboard</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="contact">
+
+        <p id="contact-title">Contact</p>
+
+        <hr id="contact-line">
+
+        <div id="contact-content">
+
+            <div class="social-container">
+                <a href="https://www.instagram.com/zumthezazaking/" target="_blank">
+                    <img src="contact images/instagram logo.jpg" alt="">
+                </a>
+                <p class="contact-text">
+                    Message me on <a class="contact-link insta" href="https://www.instagram.com/zumthezazaking/" target="_blank">Instagram</a>!
+                </p>
+            </div>
+
+            <br><br>
+
+            <div class="social-container">
+                <a href="https://github.com/ZumTheZazaKing" target="_blank">
+                    <img src="contact images/github logo.png" alt="">
+                </a>
+                <p class="contact-text">
+                    Check out my <a class="contact-link  github" href="https://github.com/ZumTheZazaKing" target="_blank">Github</a>!
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="footer">
+
+        <a id="backtoTop" href="#header">&#8686;</a>
+
+        <p id="footer-text">ZUMTHEZAZAKING <span style="color: deeppink;">&copy;2021</span></p>
+
+    </div>
+
+
+    <script defer src="filter.js"></script>
+</body>
+</html>
