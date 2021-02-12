@@ -1,0 +1,130 @@
+/*CSS Styles for when on mobile devices*/
+
+@media only screen and (max-width: 1135px){
+
+    #about-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #about-text{
+        text-align: center;
+        margin-top: 50px;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 880px){
+
+    #about-text-title{
+        font-size: 30px;
+    }
+
+
+    #about-text{
+        font-size: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width: 700px){
+
+    #portfolio-stand{
+        box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+        margin-left: 50px;
+    }
+
+    #navigation a{
+        font-size: 14px;
+    }
+
+    #navigation{
+       
+        padding: 10px 20px;
+        word-spacing: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 480px){
+
+    .projectFilter{
+        font-size: 20px;
+    }
+
+    #header-content{
+        font-size: 28px;
+    }
+
+    #jumpIn{
+        font-size: 18px;
+    }
+
+    #contact-content img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .contact-text{
+        font-size: 26px;
+    }
+
+}
+
+
+@media only screen and (max-width: 425px){
+
+    .projectFilter{
+        font-size: 20px;
+    }
+
+    #projects-container img{
+        width: 300px;
+        height: 200px;
+    }
+
+    #header-content{
+        font-size: 22px;
+    }
+
+    #jumpIn{
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 305px){
+
+    #projects-container img{
+        width: 250px;
+        height: 150px;
+    }
+
+}
+
+@media only screen and (max-width: 280px){
+
+    #header-content{
+        font-size: 18px;
+    }
+
+    #portfolio-stand{
+        width: 200px;
+        height: 280px;
+    }
+
+    #about-text{
+        font-size: 18px;
+    }
+
+    #navigation a{
+        font-size: 12px;
+    }
+
+}
