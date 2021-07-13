@@ -80,7 +80,7 @@ body{
 
 /*ABOUT*/
 .ABOUT{
-    background-image: url(images/ABOUT-banner.jpg);
+    background-image: url(images/about-banner.jpg);
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
