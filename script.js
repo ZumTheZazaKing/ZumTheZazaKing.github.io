@@ -241,7 +241,7 @@ let projectDescs = [
     "pretty cool. It was quite challenging but in the end, with the usage of discord.js "+
     "and repl.it, I managed to make a simple discord bot for moderation and amusement. "+
     "I'm just going to say that making the bot had me read through the discord.js documentation "+
-    "multiple times but it was fun. My bot can be found on <a href='https://top.gg/bot/848779367982825482'>top.gg</a>",
+    "multiple times but it was fun. My bot can be found on <a href='https://top.gg/bot/848779367982825482' target='_blank'>top.gg</a>",
 
 
     "A simple Hangman game with some horror vibes. This Hangman game takes place in the "+
@@ -251,7 +251,7 @@ let projectDescs = [
     "and so the prisoner is given a blank word and they have to try guess what it is, letter by letter"+
     "The amount of chances they have is the amount of legs their chair or stool has. All of that is"+
     "depicted in my version of Hangman. There are 3 difficulties and 3 categories. Try it out "+
-    "<a href='https://zumthezazaking.github.io/Hangman/'>here!</a>"
+    "<a href='https://zumthezazaking.github.io/Hangman/' target='_blank'>here!</a>"
 
 ]
 
