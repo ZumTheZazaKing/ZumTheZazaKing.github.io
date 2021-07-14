@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" 
+    content="I am Muhammad Zahidi a.k.a ZumTheZazaKing and I am still learning">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="google-site-verification" content="ZsoatUOTujSbHpPKth3WFq9nfk_iHbxn3l2B9TMixPw" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.jpg">
+    <title>ZumTheZazaKing</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <button class="navbarButton">HOME</button>
+        <button class="navbarButton">ABOUT</button>
+        <button class="navbarButton">PROJECTS</button>
+        <button class="navbarButton">CONTACT</button>
+        <button class="menu">&#9776;</button>
+    </div>
+
+    
+
+    <div class="menu-navbar">
+        <button class="close">X</button>
+        <button class="mobileNavbarButton">HOME</button><hr>
+        <button class="mobileNavbarButton">ABOUT</button><hr>
+        <button class="mobileNavbarButton">PROJECTS</button><hr>
+        <button class="mobileNavbarButton">CONTACT</button>
+    </div>
+
+    <div data-aos="fade-up" class="container HOME">
+        <p data-aos="fade-right" data-aos-delay="1000">
+            Welcome. I am <b>Muhammad Zahidi</b> 
+            and you can call me <b>ZumTheZazaKing</b>.<br>
+            Heck, just call me whatever you wish
+            as long as it is acceptable.
+            By the way, I'm still <i>learning</i>.
+        </p>
+    </div>
+
+
+    <div class="container ABOUT">
+        <h1>Who is this guy?</h1>
+        <p>
+            I am a student at Sungai Petani Vocational College 1 and I currently
+            reside at Penang, Malaysia. I have a quite the passion for web
+            development and programming and I am quite competent when it comes
+            down to completing my objectives. I have some knowledge on and
+            experience with <span class="cyan">Python</span>, <span class="orange">JavaScript</span> and <span class="crimson">Java</span>. However, despite my
+            accomplishments, I am still learning. I strive to become an excellent
+            developer and one day, I'll hopefully work at <span class="green">Google</span>.
+        </p>
+    </div>
+
+    <div class="container PROJECTS">
+        <h3>
+            Here are a few projects I have made since the start of my <span class="blue">learning</span>.<br>
+            I really like to use <span class="yellow">JavaScript</span> so my projects are mostly written<br>
+            in <span class="orange">Vanilla JavaScript</span>.
+        </h3>
+        
+        <p class="projectName">QTPI Online (Voice Assistant)</p>
+        <div class="projectImage">
+            <p class="webArrow before"> < </p>
+            <img src="images/qtpi-online.png" alt="qtpi-online" width="500" height="300">
+            <p class="webArrow after"> > </p>
+        </div>
+        <br>
+        <div>
+            <span class="dot active" onclick="switchProject(0)"></span>
+            <span class="dot" onclick="switchProject(1)"></span>
+            <span class="dot" onclick="switchProject(2)"></span>
+            <span class="dot" onclick="switchProject(3)"></span>
+        </div>
+        <p class="projectDesc">
+            I created a voice assistant because it seemed like a prominent challenge and
+            I called the assistant I created QTPI (pronounced cutiepie). At first I did it
+            with Python but then after sometime, I decided it to put it on the web and I
+            rewrote the code in JavaScript format. Overall, it was a very intriguing project
+            but I have yet to make it an A.I since I kinda suck at ML... but I'm still
+            learning!
+        </p>
+        <div class="mobileArrows"><span class="mobileArrow before"> < </span><span class="mobileArrow after "> > </span></div>
+    </div>
+
+    <div class="container CONTACT">
+        <h3>If you'd like to address me, please do so! Negativity is negotiable.</h3>
+        <div class="socials">
+            <div class="image-container">
+                <img width="80" height="80" alt="instagram" src="images/instagram logo.jpg">
+                <p>Instagram</p>
+            </div>
+            <div class="image-container">
+                <img width="80" height="80" alt="github" src="images/github logo.png">
+                <p>Github</p>
+            </div>
+            <div class="image-container">
+                <img width="80" height="80" alt="twitter" src="images/twitter logo.png">
+                <p>Twitter</p>
+            </div>
+            <div class="image-container">
+                <img width="80" height="80" alt="email" src="images/email icon.png">
+                <p>Email me</p>
+            </div>
+        </div>
+    </div>
+
+
+    <p id="footer">ZUMTHEZAZAKING <span>&copy;2021</span></p>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="initializeAOS.js"></script>
+    <script defer src="script.js"></script>
+</body>
+</html>
