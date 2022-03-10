@@ -12,6 +12,7 @@ import addStar from './3dComponents/stars';
 import Space from './images/space.jpeg'
 import { lazy, Suspense } from 'react';
 import Loading from './components/Loading'
+import MobileWarn from './components/MobileWarn'
 import { ToastContainer } from 'react-toastify';
 import BackToTop from "react-back-to-top-button";
 import 'react-toastify/dist/ReactToastify.css';
@@ -94,6 +95,7 @@ animate()
 function App() {
 
   return (
+    window.innerWidth < 1100 || window.innerHeight < 600 ? <MobileWarn /> :
     <div className='App'>
       <Suspense fallback={<Loading/>}>
 
