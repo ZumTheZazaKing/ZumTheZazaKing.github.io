@@ -14,7 +14,6 @@ import { lazy, Suspense } from 'react';
 import Loading from './components/Loading'
 import { ToastContainer } from 'react-toastify';
 import BackToTop from "react-back-to-top-button";
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Header = lazy(() => import('./components/Header').then(module => ({ default: module.Header })));
